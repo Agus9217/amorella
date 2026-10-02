@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --color-amorella-cream: #fcfaf7;
+  --color-amorella-bone: #f6f2ec;
+  --color-amorella-surface: #ffffff;
+  --color-amorella-muted: #eee8df;
+  --color-amorella-border: #e7ded3;
+  --color-amorella-dark: #1e1a17;
+  --color-amorella-body: #4a433d;
+  --color-amorella-caption: #7c7268;
+  --color-amorella-gold: #c5a089;
+  --color-amorella-goldHover: #b48f78;
+  --color-amorella-deepGold: #7a5a45;
+  --color-amorella-softPink: #f9f3ef;
+  --color-amorella-roseTint: #eeddd3;
+
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+html,
+body {
+  font-family: var(--font-sans);
+  background-color: #fcfaf7;
+  color: #1e1a17;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+.font-editorial {
+  font-family: var(--font-serif);
+}
+
